@@ -1,0 +1,55 @@
+.header {
+    &-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid black;
+        max-width: 1200px;
+        gap: 35px 120px;
+        flex-wrap: wrap;
+
+        &-logo {
+            &__text {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 23px;
+                color: #323232;
+            }
+        }
+
+        &-nav {
+            &-ul {
+                display: flex;
+                justify-content: center;
+                gap: 20px 30px;
+                flex-wrap: wrap;
+
+
+                &-li {
+                    &__link {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #323232;
+                    }
+                }
+            }
+        }
+
+        &-flexbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px 20px;
+            flex-wrap: wrap;
+
+            &__text {
+                text-transform: uppercase   ;
+            }
+        }
+    }
+}
